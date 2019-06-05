@@ -38,7 +38,7 @@ function fish_prompt
             set git_color black yellow
 
             if git_is_dirty
-                set git_color $git_color white red
+                set git_color $git_color white darkred
             end
 
         else if git_is_dirty
